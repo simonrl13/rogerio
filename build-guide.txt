@@ -1,0 +1,34 @@
+[Passo 1] Setup inicial do projeto
+Feito: Criei a base do guia de construção e iniciei o scaffold do projeto Next.js com Tailwind e fontes.
+Decisão: Mantive a estrutura em português e em foco no MVP do portfólio do artista Rogério Freire.
+Próximo: Finalizar a base do app, configurar o layout global e preparar os dados mockados.
+
+[Passo 2] Tipos e dados mockados
+Feito: Criei os arquivos de dados com tipos para pinturas e produtos, incluindo categorias, paletas e itens coerentes com o visual do artista.
+Decisão: Mantive a estrutura simples e hardcoded para facilitar troca por CMS ou banco no futuro, sem over-engineering no MVP.
+Próximo: Construir o layout base e a navegação.
+
+[Passo 3] Layout base e navegação
+Feito: Configurei o layout global, a tipografia Space Grotesk, a paleta neutra inspirada na arte e o cabeçalho principal da navegação.
+Decisão: Usei uma interface contida para não competir com as obras, incluindo elementos geométricos sutis como decoração.
+Próximo: Desenvolver as páginas principais do site.
+
+[Passo 4] Páginas do MVP
+Feito: Desenvolvi as páginas Home, Galeria, Produtos, Sobre e Contato, além dos filtros por categoria e placeholders locais em CSS/SVG para obras e produtos.
+Decisão: Mantive todos os preços em “Consulte o valor” e desenvolvi botões de WhatsApp com mensagem pré-preenchida via encodeURIComponent.
+Próximo: Validar a renderização local e ajustar eventuais incompatibilidades finais.
+
+[Passo 5] Integração de contato e WhatsApp
+Feito: Configurei links de WhatsApp com o número informado e adicionei o formulário de contato com Formspree como alternativa sem backend.
+Decisão: Usei o modelo mais simples de integração para manter o MVP funcional e pronto para deploy futuro em Vercel.
+Próximo: Rodar o projeto localmente e confirmar que tudo está funcionando corretamente.
+
+[Passo 6] Verificação local
+Feito: Iniciei o servidor local do Next.js e validei que o app está rodando em localhost:3000.
+Decisão: A verificação foi feita no ambiente local do projeto, priorizando a funcionalidade do MVP em vez de sobrecarregar a arquitetura com camadas extras.
+Próximo: Finalizar a documentação do estado atual e manter o guia atualizado conforme novas mudanças forem feitas.
+
+[Passo 7] Refinamento de conteúdo para apresentação
+Feito: Reescrevi a narrativa da Home e da página Sobre com base na exposição recente do artista, reforçando a identidade cultural de Campina Grande e a relevância do seu trabalho no contexto local.
+Decisão: Mantive o texto em linguagem acessível e elegante, fitting para apresentação ao artista e para a proposta do portfólio institucional.
+Próximo: Preparar a entrega final para apresentação com checklist de materiais e encaminhamentos para deploy.
